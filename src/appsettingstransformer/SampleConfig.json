@@ -1,0 +1,14 @@
+{
+    "environments":[{
+        "environment":"PERF",
+      "secrets": {
+        "protection_key_shared_path": "\\\\shared-server\\STA\\Cookie",        
+        "net_use_user_name": "svcFrameWork",
+        "scr_protectionkey_path_json": "couchbase",
+        "scr_protectionkey_path": "couchbase",
+        "scr_claimmgmtconnstr": "Data Source=DB-Server;Initial Catalog=ClaimManagement;User Id=developer;Password=somepassword;",
+        "src_couchbaseusername": "userscope.per",        
+        "scr_lmx_dev_KeyGenURL": "http://dev-server/keygen"
+      }
+    }]
+}
